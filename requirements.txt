@@ -1,0 +1,17 @@
+langchain
+langgraph
+langchain-community
+langchain-google-genai
+langchain-groq
+langchain-pinecone
+tavily-python
+polygon
+pinecone-client
+streamlit
+fastapi[all]
+uvicorn
+pypdf
+docx2txt
+python-dotenv
+pyyaml
+-e .

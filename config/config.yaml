@@ -1,0 +1,18 @@
+vector_db:
+  index_name: "stocksage-ai"
+
+retriever:
+  top_k: 3
+  score_threshold: 0.5
+
+embedding_model:
+  provider: "google"
+  model_name: "models/text-embedding-004"
+
+llm:
+  provider: "groq"
+  model_name: "deepseek-r1-distill-llama-70b"
+
+tools:
+  tavily:
+    max_results: 5
